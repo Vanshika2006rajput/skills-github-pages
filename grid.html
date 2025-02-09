@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2x2 grid examlle</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: antiquewhite;
+        }
+        .grid-container{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            gap:10px;
+            width: 80%;
+            height: 80%;
+            background-color: aqua;
+        }
+        .grid-item{
+            display: flex;
+            grid-template-columns: 1fr 1fr;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid white;
+            background-color:bisque;
+            padding: 10px;
+            text-align: center;
+        }
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+        .grid-item video{
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+
+</head>                
+<body>
+    <div class="grid-item">
+        <img src="3BHK.jpg" alt="same image">
+
+    </div>
+    <div class="grid-item">
+        <p>this is a sample test descrpition in the grid cell</p>
+    </div>
+
+    <div class="grid-item">
+    
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vdMPP47nLhc?si=0gbKI-8bcU-MoGi6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+    
+</body>
+</html>

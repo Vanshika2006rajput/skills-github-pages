@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Café</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f1e5;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            height: 100vh;
+            margin: 0;
+            background-image: url(image\ 1.jpg);
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: #db8e8e;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        h1 {
+            color: #8B4513;
+        }
+        .contact-info {
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            font-size: 16px;
+            color: #5a3e2b;
+        }
+        .contact-form {
+            width: 100%;
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        .form-group {
+            margin-bottom: 15px;
+            text-align: left;
+        }
+        label {
+            display: block;
+            font-weight: bold;
+            color: #5a3e2b;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid brown;
+            
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        textarea {
+            resize: vertical;
+            height: 100px;
+        }
+        button {
+            width: 100%;
+            background: #8B4513;
+            color: white;
+            border: none;
+            padding: 10px;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background: green;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <p><strong>Address:</strong> 123 Coffee Street,near by buitding</p>
+            <p><strong>Phone:</strong> (123) +91-xxxxxxxxxxx</p>
+            <p><strong>Email:</strong> contact@cafename.com</p>
+            <p><strong>Opening Hours:</strong> 8:00 AM - 10:00 PM</p>
+        </div>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="enter your name  ">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="enter your email" >
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required placeholder="enter your message to us">
+            </div>
+            <div class="form-group">
+                <label for="message">Your Message</label>
+                <textarea id="message" name="message" required placeholder="enter your feedback to us"></textarea>
+            
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <a href="FINALproject.html"> Click here</a>
+</body>
+</html>

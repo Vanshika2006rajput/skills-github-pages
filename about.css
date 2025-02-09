@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: sandybrown;
+    color: #333;
+    
+}
+header {
+    background-color: #333;
+    color: #e9b44c;
+    padding: 1rem 0;
+    text-align: center;
+   
+}
+
+header .logo h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #e9a7a7;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover,
+header nav ul li a.active {
+    color: #f39c12;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5e6cc;
+    color: #4a3222;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 50px 0;
+}
+header {
+    background-color: #6f4e37;
+    color: white;
+    padding: 20px;
+    font-size: 28px;
+}
+.about-section {
+    padding: 40px 20px;
+}
+.about-section img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.gallery img {
+    width: 250px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 3rem 0;
+}
+
+.about-section .container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.about-section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+}
+
+.about-section p {
+    font-size: 1.125rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    text-align: justify;
+}
+
+

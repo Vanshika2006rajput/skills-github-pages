@@ -1,0 +1,5 @@
+h1{color: black;text-align: center;background-color:yellow;}
+p{color:black; background-color:lightblue; text-align: center;border: 5px solid lightblue;}
+body{background-image: url(navy\ blue.png) ; 
+     background-repeat: no-repeat;
+    background-size: cover;}
